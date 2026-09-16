@@ -44,7 +44,7 @@ git clone [https://github.com/your-username/tariff-simulator.git](https://github
 cd tariff-simulator
 ```
 
-2. Backend Setup
+### 2. Backend Setup
 ```bash
 cd backend
 npm install
@@ -53,7 +53,7 @@ npm install
 npm start
 ```
 
-3. Frontend Setup
+### 3. Frontend Setup
 Open a new terminal window:
 ```bash
 cd frontend
