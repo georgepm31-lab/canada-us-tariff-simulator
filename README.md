@@ -73,4 +73,8 @@ Navigate to http://localhost:5173 in your browser.
 * **GitHub:** [georgepm31-lab](https://github.com/georgepm31-lab)
 
 * **Data source:** Statistics Canada (2020-2026).
-
+* 
+*View the live demonstration:* 
+ ```bash 
+[Canada-US Trade Tariff Simulator Live](https://canada-us-tariff-simulator.onrender.com)
+```
