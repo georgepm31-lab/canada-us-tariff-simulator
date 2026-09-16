@@ -42,19 +42,24 @@ To run this project locally, you will need Node.js and a PostgreSQL database.
 ```bash
 git clone [https://github.com/your-username/tariff-simulator.git](https://github.com/your-username/tariff-simulator.git)
 cd tariff-simulator
+```
 
 2. Backend Setup
+```bash
 cd backend
 npm install
 # Create a .env file and add your database URL:
 # DATABASE_URL=postgres://user:password@host/dbname
 npm start
+```
 
 3. Frontend Setup
 Open a new terminal window:
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Navigate to http://localhost:5173 in your browser.
 
