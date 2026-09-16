@@ -62,7 +62,7 @@ npm run dev
 ```
 
 Navigate to http://localhost:5173 in your browser.
-```texttext
+
 👨‍💻 Author
 **Jorge Parra**
 
@@ -73,4 +73,4 @@ Navigate to http://localhost:5173 in your browser.
 * GitHub: [georgepm31-lab](https://github.com/georgepm31-lab)
 
 * Data source: Statistics Canada (2020-2026).
-```
+
