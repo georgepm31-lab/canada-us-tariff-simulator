@@ -64,13 +64,13 @@ npm run dev
 Navigate to http://localhost:5173 in your browser.
 ```texttext
 👨‍💻 Author
-[Jorge Parra]
+**Jorge Parra**
 
-Role: Full-Stack Developer / Data Analyst
+* **Role:** Full-Stack Developer / Data Analyst
 
-LinkedIn: [https://www.linkedin.com/in/jorge-parra-67869634a/]
+* LinkedIn: [https://www.linkedin.com/in/jorge-parra-67869634a/]
 
-GitHub: [https://github.com/georgepm31-lab]
+* GitHub: [https://github.com/georgepm31-lab]
 
-Data source: Statistics Canada (2020-2026).
+* Data source: Statistics Canada (2020-2026).
 ```
