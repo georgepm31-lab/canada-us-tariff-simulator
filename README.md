@@ -68,9 +68,9 @@ Navigate to http://localhost:5173 in your browser.
 
 *  **Role:** Full-Stack Developer / Data Analyst
 
-*  LinkedIn: [https://www.linkedin.com/in/jorge-parra-67869634a/]
+* LinkedIn: [Jorge Parra](https://www.linkedin.com/in/jorge-parra-67869634a/)
 
-*  GitHub: [https://github.com/georgepm31-lab]
+* GitHub: [georgepm31-lab](https://github.com/georgepm31-lab)
 
-*  Data source: Statistics Canada (2020-2026).
+* Data source: Statistics Canada (2020-2026).
 ```
