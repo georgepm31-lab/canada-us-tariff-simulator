@@ -44,10 +44,13 @@ function App() {
   useEffect(() => {
     setLoading(true);
     
-    const fetchRegional = axios.get(`http://localhost:3000/api/top-exports?year=${year}&region=${region}`);
+    
+    const API_BASE = window.location.hostname === 'localhost' ? 'http://localhost:3000' : '';
+
+    const fetchRegional = axios.get(`${API_BASE}/api/top-exports?year=${year}&region=${region}`);
     const fetchNational = region === 'Canada' 
       ? fetchRegional 
-      : axios.get(`http://localhost:3000/api/top-exports?year=${year}&region=Canada`);
+      : axios.get(`${API_BASE}/api/top-exports?year=${year}&region=Canada`);
 
     Promise.all([fetchRegional, fetchNational])
       .then(([regionalResponse, nationalResponse]) => {

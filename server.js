@@ -1,6 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const { Pool } = require('pg');
 
 const app = express();
@@ -12,6 +13,7 @@ const pool = new Pool({
     ssl: { rejectUnauthorized: false }
 });
 
+// Endpoint API
 app.get('/api/top-exports', async (req, res) => {
     try {
         const requestedYear = req.query.year || 2025; 
@@ -36,7 +38,14 @@ app.get('/api/top-exports', async (req, res) => {
     }
 });
 
+// Servir el frontend en producción
+app.use(express.static(path.join(__dirname, 'frontend/dist')));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'frontend/dist', 'index.html'));
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`🚀 Backend Server running on http://localhost:${PORT} (No Limits)`);
+    console.log(`🚀 Server running on port ${PORT}`);
 });
