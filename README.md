@@ -76,5 +76,5 @@ Navigate to http://localhost:5173 in your browser.
 * 
 *View the live demonstration:* 
  ```bash 
-[Canada-US Trade Tariff Simulator Live](https://canada-us-tariff-simulator.onrender.com)
+https://canada-us-tariff-simulator.onrender.com
 ```
