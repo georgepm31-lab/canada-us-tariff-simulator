@@ -10,7 +10,7 @@ The **Canada-US Trade Tariff Simulator** is a full-stack data visualization dash
 
 By leveraging historical trade data, this tool allows economic analysts and business leaders to calculate the **Tariff Exposure (Revenue at Risk)** in real-time across different industries, provinces, and fiscal years.
 
-> **View the live demonstration / LinkedIn Post:** [Link to your LinkedIn Post here]
+> ***View the live demonstration:* [Canada-US Trade Tariff Simulator Live](https://canada-us-tariff-simulator.onrender.com)
 
 ---
 
